@@ -1,0 +1,37 @@
+{
+  "name": "early-mart",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth/firebase-adapter": "^2.7.4",
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/material": "^6.1.8",
+    "@radix-ui/react-avatar": "^1.1.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "firebase": "^11.0.2",
+    "firebase-admin": "^12.7.0",
+    "formik": "^2.4.6",
+    "lucide-react": "^0.462.0",
+    "next": "14.2.14",
+    "next-auth": "^5.0.0-beta.25",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react-icons": "^5.3.0",
+    "react-paystack": "^6.0.0",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
+    "yup": "^1.5.0"
+  },
+  "devDependencies": {
+    "postcss": "^8",
+    "tailwindcss": "^3.4.16"
+  }
+}
